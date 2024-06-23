@@ -1,0 +1,168 @@
+/* =======================================
+UNIVERSAL STLYING
+=======================================*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+    color: #f9faf8;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.content-wrap {
+    padding: 0 10%;
+}
+
+
+
+/* =======================================
+NAVIGATION
+=======================================*/
+
+header {
+    background: #1f2937;
+    font-size: 18px;
+}
+
+nav, ul, .banner, .containerItem {
+    display: flex;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul, .banner, .containerItem {
+    gap: 40px;
+}
+
+section.banner {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.bannerImage img {
+    width: 500px;
+    height: 245px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.headerText p {
+    font-size: 18px;
+    padding: 15px 0 20px 0;
+    color: #e5e7eb;
+}
+
+.headerText a {
+    padding: 5px 15px;
+    background: #3882f6;
+    border-radius: 5px;
+}
+
+.container {
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 80px;
+}
+
+.containerItem {
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.item img {
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 3px 3px 8px 0px rgb(199, 197, 197);
+}
+
+.item {
+    width: 160px;
+    height: 230px;
+}
+
+.item p {
+    color: #767778;
+}
+
+.qoute {
+    background: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 5% 0;
+}
+
+.quoteCenter p { 
+    text-align: justify;
+}
+
+.quoteCenter {
+    width: 50%;
+    margin: auto;
+}
+
+section.quoteCenter span {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.action {
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    background: #3882f6;
+    padding: 30px 0;
+}
+
+.actionCall {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.action p {
+    color: #d3d6d8;
+}
+
+button {
+    padding: 0px 20px;
+    background: transparent;
+    border: 2px solid #d3d6d8;
+    border-radius: 7px;
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    background: #1f2937;
+    padding: 20px;
+}
